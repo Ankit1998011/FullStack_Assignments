@@ -1,0 +1,27 @@
+Ans2.
+
+The purpose of comments in HTML is to add explanatory or descriptive text within the code that is not displayed on the webpage. 
+Comments are useful for developers to understand and remember the purpose of specific code sections, or to temporarily exclude certain
+code from being executed.
+
+In HTML, comments are written between . Here's an example of how to use comments in an HTML document:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+<body>
+
+  <section>
+    <!-- This is the main content -->
+    <h2>About Me</h2>
+    <p>I am a web developer with a passion for HTML and CSS.</p>
+  </section>
+
+  <!-- This is the footer section -->
+  <footer>
+    <p>My Webpage. All rights reserved.</p>
+  </footer>
+</body>
+</html>

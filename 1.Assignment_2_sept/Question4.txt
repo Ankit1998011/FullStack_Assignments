@@ -1,0 +1,20 @@
+Ans4.
+
+In HTML, a tag is a keyword surrounded by angle brackets (<>) that defines an HTML element.
+HTML elements are the building blocks of a webpage, and they define the structure and content of the page.
+
+An HTML element consists of a start tag, content, and an end tag. The start tag marks the beginning of the 
+element, and the end tag marks the end. The content between the start and end tags represents the actual 
+information or components that will be displayed on the webpage.
+
+For example, consider the following HTML element:
+
+<h1>Welcome to my webpage!</h1>
+
+In this example, <h1> is the start tag, Welcome to my webpage! is the content, and </h1> is the end tag. 
+This element represents a heading level 1 (h1) on the webpage, and the text "Welcome to my webpage!" 
+will be displayed as a large heading.
+
+HTML tags and elements are used to structure the webpage, define headings, paragraphs, links, images, 
+tables, forms, and more. They allow developers to organize and present content in a meaningful way that can 
+be understood and rendered by web browsers.
