@@ -1,0 +1,21 @@
+Ans2.
+
+Html Entities: HTML entities are special codes or characters used to represent reserved characters, characters with special meaning, or characters that cannot be easily typed or displayed in HTML. These entities
+are defined by their names or numeric codes and are enclosed in ampersand (&) and semicolon (;) symbols.
+
+Some important Html Entities are:
+
+1. & - Represents the ampersand character (&). This entity is used to display an ampersand symbol or to avoid 
+conflicting with HTML syntax.
+
+2. < - Represents the less than symbol (<). This entity is used to display a less than symbol or to avoid 
+confusion with HTML tags.
+
+3. > - Represents the greater than symbol (>). This entity is used to display a greater than symbol or to 
+avoid confusion with HTML tags.
+
+4. " - Represents the double quotation mark ("). This entity is used to display a double quotation mark within
+attribute values that are enclosed in double quotes.
+
+5. © - Represents the copyright symbol (©). This entity is used to display the copyright symbol in text or to 
+indicate copyright ownership.

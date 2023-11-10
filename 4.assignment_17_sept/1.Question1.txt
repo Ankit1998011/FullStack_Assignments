@@ -1,0 +1,39 @@
+Ans.  Some important features of HTML are:-
+
+1.Structure: HTML provides a way to structure the content of a webpage using various elements such as headings,
+paragraphs, lists, tables, and more.
+
+2.Text formatting: HTML allows you to format text by specifying attributes such as bold, italic, underline, 
+and strikethrough.
+
+3.Hyperlinks: HTML enables the creation of hyperlinks, allowing users to navigate between webpages by clicking 
+on a specific text or image.
+
+4.Images and multimedia: You can embed images, videos, audio, and other multimedia content into an HTML 
+document.
+
+5.Forms: HTML provides form elements to create interactive forms, such as text fields, checkboxes, radio 
+buttons, dropdown menus, and submit buttons to collect user input.
+
+6.Semantic elements: HTML introduced semantic elements like <header>, <nav>, <section>, <article>, <aside>, 
+<footer>, etc., which add meaning to the structure of a webpage.
+
+7.Tables: HTML allows you to create tables to organize and present data in rows and columns.
+
+8.Lists: HTML supports ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>) to display 
+information in a list format.
+
+9.Metadata: HTML includes elements like <title>, <meta>, and <link> to provide metadata about the webpage, 
+such as its title, description, author, and stylesheet.
+
+10.Cascading Style Sheets (CSS) integration: HTML can be combined with CSS to style and enhance the appearance 
+of webpages.
+
+11.Accessibility: HTML supports accessibility features like alternative text for images (alt attribute), 
+semantic elements for screen readers, and ARIA (Accessible Rich Internet Applications) attributes.
+
+12.Responsive design: HTML allows the creation of responsive webpages that can adapt and display properly on 
+different devices and screen sizes.
+
+13.Audio and video support: HTML5 introduced <audio> and <video> elements, allowing the direct embedding of 
+audio and video content without the need for third-party plugins.
