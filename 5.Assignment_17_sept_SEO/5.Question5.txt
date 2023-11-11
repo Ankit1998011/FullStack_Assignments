@@ -1,0 +1,6 @@
+Ans5.
+
+A favicon, short for "favorite icon," is a small icon that represents a website or webpage. It appears in 
+various places, such as browser tabs, bookmarks, and bookmark bars, providing visual branding and aiding in 
+easy identification of a website. Favicon files are generally in .ico format, although other image formats 
+such as .png or .svg can also be used.
