@@ -1,0 +1,9 @@
+/* Using class selector to demonstrate External css */
+
+.external{
+    background-color: brown;
+}
+
+.apply_all{
+    background-color: palevioletred;
+}

@@ -1,0 +1,21 @@
+Ans2.
+
+BEM stands for Block, Element, Modifier and is a naming convention used in web development to create clear and 
+modular CSS styles.
+
+In BEM, each component or element on a webpage is given a unique class name based on its purpose and function.
+
+Block: The top-level component or standalone element that represents a distinct section of the webpage. It is 
+usually a meaningful and descriptive name, written in lowercase and separated by hyphens (e.g., "header", 
+"sidebar", "button").
+
+Element: A part of the block that has no standalone meaning and is semantically tied to the block. It is 
+represented by the block's class name followed by two underscores and a descriptive name (e.g., "header__logo", 
+"button__text").
+
+Modifier: An additional state or variation of the block or element. It is represented by the block or 
+element's class name followed by two dashes and a descriptive name (e.g., "button--disabled", 
+"header__logo--small").
+
+The BEM naming convention helps in creating self-explanatory and reusable CSS classes, making it easier to 
+understand and maintain code in larger projects with multiple developers.

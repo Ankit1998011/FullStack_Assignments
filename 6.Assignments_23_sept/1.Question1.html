@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* Using class selector for internal css */
+        .internal{
+            background-color: aquamarine;
+        }
+
+        .apply_all{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Using inline CSS -->
+    <div class="inline" style="background-color: yellow;">
+        <h1>Inline CSS</h1>
+    </div>
+    <div class="internal">
+        <h1>Internal CSS</h1>
+    </div>
+    <div class="external">
+        <h1>External CSS</h1>
+    </div>
+    <div class="apply_all" style="background-color: green;">
+        <h1>CSS priority(inline&gt;internal&gt;external)</h1>
+    </div>
+    
+</body>
+</html>

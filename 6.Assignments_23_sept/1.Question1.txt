@@ -1,0 +1,20 @@
+Ans.
+
+When you target the same element with inline, internal, and external CSS, the CSS rules will be applied based 
+on their specificity and the order in which they are declared.
+
+Inline CSS: Inline CSS is applied directly to an HTML element using the style attribute. It has the highest 
+specificity and will override any other CSS rules targeting the same element. Inline CSS is considered a bad 
+practice because it mixes presentation with content, making the code harder to maintain.
+
+Internal CSS: Internal CSS is defined within the HTML document using the <style> tag inside the <head> section. 
+It has a higher specificity than external CSS but lower than inline CSS. If you target the same element with 
+both internal and external CSS, the internal CSS rules will take precedence over the external CSS.
+
+External CSS: External CSS is defined in a separate CSS file and linked to the HTML document using the <link> 
+tag. It has the lowest specificity among the three. When targeting the same element with external and internal 
+CSS, the internal CSS rules will override the external CSS rules.
+
+In summary, inline CSS will always take precedence over internal and external CSS, while internal CSS will 
+override external CSS. It is generally recommended to use external CSS for better maintainability and 
+separation of concerns.
