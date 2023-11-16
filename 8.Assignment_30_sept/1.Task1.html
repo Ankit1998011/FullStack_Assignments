@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        .boxA{
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+
+        .boxB{
+            position: absolute;
+            top: -30px;
+            left: -30px;
+        }
+
+        .boxC{
+            position: absolute;
+            top: -30px;
+            right: -30px;
+        }
+
+        .boxD{
+            position: absolute;
+            bottom: -30px;
+            left: -30px;
+
+        }
+
+        .boxE{
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box boxA">A
+        <div class="box boxB">B</div>
+        <div class="box boxC">C</div>
+        <div class="box boxD">D</div>
+        <div class="box boxE">E</div>
+    </div>
+</body>
+</html>

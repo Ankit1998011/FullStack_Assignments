@@ -1,0 +1,14 @@
+Ans2.
+
+Absolute positioning in CSS allows you to precisely specify the exact position of an element relative to its 
+closest positioned ancestor or to the document itself. When an element is absolutely positioned, it is taken 
+out of the normal document flow, meaning other elements will not be affected by its position. The element is 
+placed using the top, bottom, left, and right properties. Absolute positioning is often used to create 
+overlays, tooltips, or fixed elements on a webpage.
+
+On the other hand, relative positioning in CSS allows you to position an element relative to its normal 
+position in the document flow. When an element is relatively positioned, it still takes up space in the 
+document flow and other elements are affected by its position. The element is moved using the offset 
+properties: top, bottom, left, and right. The position of the element is relative to its original position, so 
+it can be shifted in any direction. Relative positioning is often used when you want to slightly adjust the 
+position of an element without affecting the layout of other elements.

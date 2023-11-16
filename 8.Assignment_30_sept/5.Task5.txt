@@ -1,0 +1,15 @@
+Ans5.
+
+In CSS, the z-index property determines the stacking order of positioned elements. It specifies whether an 
+element should be positioned in front of or behind another element. The z-index value can be either a positive 
+or negative number, or the keyword "auto".
+
+Higher z-index values bring elements closer to the front and lower values send them closer to the back. By 
+default, elements have a z-index value of "auto", which means their stacking order is determined by their 
+order in the HTML document.
+
+The z-index property affects elements that have a position value of "relative", "absolute", or "fixed". It 
+does not have any effect on elements with a position value of "static" (the default position value).
+
+For example, if two elements have a position value of "relative" and overlap each other, the element with a 
+higher z-index value will be displayed in front of the other element.
