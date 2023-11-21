@@ -1,0 +1,33 @@
+Ans2.
+
+1.justify-content: The justify-content property in Flexbox is used to align flex items along the main axis of 
+the flex container. It allows you to control how extra space is distributed between and around the flex items.
+
+2.align-items: The align-items property in Flexbox is used to align flex items along the cross axis of the 
+flex container. It allows you to control how flex items are positioned vertically when they do not take up the 
+full height of the flex container.
+
+3.gap: The gap property in CSS Flexbox is used to add spacing between flex items. It allows you to control the 
+space between flex items without having to manually adjust margins or paddings.
+
+4.flex-direction: The flex-direction property in Flexbox CSS is used to define the direction in which flex 
+items are laid out within a flex container. It specifies whether the flex items should be arranged in a row, 
+column, row-reverse, or column-reverse.
+
+The flex-direction property can take the following values:
+
+1.row (default): Flex items are arranged in a row from left to right.
+2.row-reverse: Flex items are arranged in a row from right to left.
+3.column: Flex items are arranged in a column from top to bottom.
+4.column-reverse: Flex items are arranged in a column from bottom to top.
+
+5.flex-wrap: The flex-wrap property in Flexbox CSS is used to control whether flex items should wrap or not 
+when they exceed the width or height of the flex container.
+
+The flex-wrap property can take the following values:
+
+1.nowrap (default): Flex items are not wrapped to the next line. They are laid out in a single line.
+2.wrap: Flex items are wrapped to the next line when they exceed the width or height of the flex container.
+3.wrap-reverse: Flex items are wrapped to the next line in reverse order when they exceed the width or height 
+of the flex container.
+

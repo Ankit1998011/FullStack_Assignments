@@ -1,0 +1,320 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .outer-container{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            background-color: #202842;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner-container{
+            display: flex;
+            width: 962px;
+            height: 427px;
+            background-color: #F4F2FD;
+            padding: 32px 48px 32px 48px;
+            gap: 32px;
+        }
+
+        .free-plan{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 262px;
+            height: 363px;
+            background-color: #FFFFFF;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .basic-plan{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 262px;
+            height: 363px;
+            background-color: #202842;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .pro-plan{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 263px;
+            height: 361px;
+            padding: 32px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+
+        }
+
+        .card-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 198px;
+            height: 306px;
+            gap: 32px;
+
+        }
+
+        .frame1{
+            width: 157px;
+            height: 40px;
+            padding: 4px 8px 4px 8px;
+            gap: 10px;
+        }
+
+        .frame1-text{
+            width: 141px;
+            height: 32px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 32px;
+            color: #202842;
+;
+        }
+
+        .frame2{
+            width: 107px;
+            height: 16px;
+            padding: 0 8px 0 8px;
+            gap: 10px;
+        }
+
+        .basic-plan .frame2{
+            width: 151px;
+        }
+
+        .frame2-text{
+            width: 91px;
+            height: 16px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            color: #202842;
+        }
+
+
+        .price-tag{
+            width: 58px;
+            height: 36px;
+            padding: 0 8px 0 8px;
+            gap: 10px;
+        }
+
+        .price-amt{
+            width: 42px;
+            height: 36px;
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            color: #202842;
+
+        }
+
+        .header-name{
+            width: 198px;
+            height: 108px;
+            gap: 16px;
+        }
+
+        .inner-card-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 198px;
+            height: 236px;
+            gap: 16px;
+        }
+
+        .plan-details{
+            width: 198px;
+            height: 112px;
+            padding: 0 0 0 8px;
+        }
+
+        .pro-plan .plan-details{
+            width: 203px;
+        }
+
+        .group{
+            position: relative;
+        }
+
+        .group1{
+            width: 95px;
+            height: 28px;
+        }
+
+        .pro-plan .group1{
+            width: 156px;
+        }
+
+        .group2{
+            width: 134px;
+            height: 28px;
+        }
+
+        .pro-plan .group2{
+            width: 195px;
+        }
+
+        .group3{
+            width: 190px;
+            height: 28px;
+        }
+
+
+        .group4{
+            width: 107px;
+            height: 28px;
+        }
+
+        .pro-plan .group4{
+            width: 156px;
+        }
+
+        .check-sign{
+            display: inline-block;
+            position: absolute;
+            width: 30px;
+            height: 28px;
+            padding: 3px 4px;
+            gap: 10px;
+            left: 8px;
+        }
+
+        .check-sign img{
+            width: 22px;
+            height: 22px;
+        }
+
+        .feature{
+            display: inline-block;
+            position: absolute;
+            left: 38px;
+        }
+
+        .group1 .feature{
+            width: 65px;
+            height: 28px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .pro-plan .group1 .feature{
+            width: 126px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .group2 .feature{
+            width: 104px;
+            height: 28px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .pro-plan .group2 .feature{
+            width: 165px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .group3 .feature{
+            width: 160px;
+            height: 28px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+
+        }
+
+        .pro-plan .group3 .feature{
+            width: 160px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .group4 .feature{
+            width: 77px;
+            height: 28px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+
+        }
+
+        .pro-plan .group4 .feature{
+            width: 126px;
+            padding: 8px 8px 4px 4px;
+            gap: 10px;
+        }
+
+        .group1 .feature-text{
+            width: 53px;
+            height: 16px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #202842;
+        }
+
+
+
+        .group2 .feature-text{
+            width: 92px;
+            height: 16px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #202842;
+        }
+
+        .group3 .feature-text{
+            width: 148px;
+            height: 16px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #202842;
+
+        }
+
+        .group4 .feature-text{
+            width: 65px;
+            height: 16px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            color: #202842;
+
+        }
+
+        .subscribe-btn{
+            width: 166px;
+            height: 38px;
+            border-radius: 50px;
+            padding: 8px 24px;
+            gap: 10px;
+            background-color: #202842;
+        }
+
+        .btn-text{
+            width: 130px;
+            height: 22px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #ffffff;
+        }
