@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: brown;
+        }
+
+        .container{
+            display: grid;
+            width: 60%;
+            height: 60%;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(2,1fr);
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            gap: 5px;
+        }
+
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            border-radius: 5%;
+
+        }
+
+        .black{
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+        }
+
+        .grey{
+            background-color: grey;
+            color: black;
+            border: 2px solid grey;
+        }
+
+        .box1{
+            order: 1;
+        }
+
+        .box2{
+            order: 1;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1 black">1</div>
+        <div class="box box2 grey">2</div>
+        <div class="box box3 black">3</div>
+        <div class="box box4 grey">4</div>
+        <div class="box box5 black">5</div>
+        <div class="box box6 grey">6</div>
+        <div class="box box7 black">7</div>
+        <div class="box box8 grey">8</div>
+    </div>
+</body>
+</html>
