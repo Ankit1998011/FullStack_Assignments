@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            height: 5%;
+            color: white;
+            background-color: black;
+            margin: 2px;
+        }
+
+        .items{
+            display: flex;
+            width: 20%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        @media (max-width: 768px){
+            nav{
+                flex-direction: column;
+                height: 20%;
+            }
+            .items{
+                width: 100%;
+                background-color: grey;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="items">Home</div>
+        <div class="items">About</div>
+        <div class="items">Services</div>
+        <div class="items">Portfolio</div>
+        <div class="items">Contact</div>
+    </nav>
+</body>
+</html>

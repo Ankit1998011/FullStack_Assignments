@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container{
+            display: flex;
+            width: 100%;
+            height: 60%;
+            font-size: 2rem;
+        }
+
+        .item{
+            display: flex;
+            height: 100%;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Box1{
+            width: 10%;
+            background-color: black;
+        }
+
+        .Box4{
+            width: 10%;
+            background-color: black;
+        }
+
+        .Box23{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+
+        .Box2{
+            display: flex;
+            width: 100%;
+            height: 50%;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Box3{
+            display: flex;
+            width: 100%;
+            height: 50%;
+            background-color: orange;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 519px),(max-height: 595px){
+            .container{
+                flex-direction: column;
+                height: 100%;
+                font-size: 1rem;
+            }
+
+            .item{
+                width: 100%;
+                height: 10%;
+            }
+
+            .Box23{
+                height: 20%;
+            }
+
+            .Box4{
+                margin-top: 60%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Box1 item">Box1</div>
+        <div class="Box23 item">
+            <div class="inner-item Box2">Box2</div>
+            <div class="inner-item Box3">Box3</div>
+        </div>
+        <div class="Box4 item">Box4</div>
+    </div>
+</body>
+</html>

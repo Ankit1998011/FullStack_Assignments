@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header{
+            height: 20%;
+            background-color: grey;
+            border: 2px solid grey;
+        }
+
+        @media (max-width: 600px){
+            .header{
+                background-color: blue;
+            }
+        }
+
+        .main{
+            height: 70%;
+        }
+
+        .footer{
+            height: 10%;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header item"><h1>Responsive Header</h1></div>
+        <div class="main item">Main content</div>
+        <div class="footer item">Footer</div>
+    </div>
+</body>
+</html>
