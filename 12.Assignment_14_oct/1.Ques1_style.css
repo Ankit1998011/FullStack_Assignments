@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+li a{
+    color: red;
+
+}
+
+nav > h2{
+    color: white;
+    background-color: black;
+}
+
+nav div+p{
+    color: red;
+}
+
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"]{
+    color: blue;
+    text-decoration: underline;
+}
+
+a[target="_self"]{
+    background-color:   greenyellow;
+}
+
+nav p:last-of-type::after{
+    content: "...";
+}
+
+
+ul li::marker{
+    color: green;
+} 
+
+nav p:nth-of-type(2)::first-letter{
+    color: red;
+    font-size: 30px;
+}

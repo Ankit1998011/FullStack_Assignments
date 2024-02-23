@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav  ul{
+    list-style-type: none;
+}
+
+nav  ul  li  a{
+    text-decoration: none;
+
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+li+li{
+    margin: 10px;
+}
