@@ -1,0 +1,31 @@
+Q1. Explain what version control is and its importance in software development.
+
+Ans.
+
+1. "Definition":
+   - "Version control systems (VCS)" are software tools that track and manage changes made to files in a codebase.
+   - They maintain a record of modifications, including who made them and what changes were implemented.
+
+2. "Importance of Version Control":
+   - "Collaboration": In collaborative software development, where multiple developers contribute from different locations,
+      VCS enables efficient communication and change tracking.
+
+   - "Efficient Code Management": VCS keeps the source code organized by creating separate branches for contributors.
+      Changes are analyzed and merged into the main codebase.
+
+   - "Productivity Boost": By providing better communication and assistance, VCS enhances productivity and expedites product delivery.
+
+   - "Error Reduction": Traceability to every small change minimizes errors and conflicts during project development.
+
+   - "Geographical Flexibility": Contributors can work from anywhere, overcoming geographical barriers.
+
+   - "Disaster Recovery": VCS helps recover from contingencies by preserving historical versions.
+
+   - "Accountability": It informs us about who, what, when, and why changes were made.
+
+3. "Popular Examples":
+   - "Git": A widely used distributed VCS.
+   - "Helix Core": Suitable for large-scale projects.
+   - "Microsoft TFS": Integrated with Visual Studio.
+
+In summary, version control ensures efficient collaboration, reduces errors, and provides a safety net for software development.

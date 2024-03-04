@@ -1,0 +1,17 @@
+Question 1: Explain what JavaScript is and its role in web development.
+
+Ans.
+
+JavaScript is a high-level, dynamic, and interpreted programming language that is used to make websites interactive. 
+It is one of the core technologies of the web, along with HTML and CSS. JavaScript allows developers to add complex features 
+to websites, such as interactivity, animations, and dynamic content updates, without the need to reload the entire page.
+
+In web development, JavaScript is primarily used for client-side programming, which means it runs in the user's web browser rather 
+than on the web server. This allows for a more responsive and dynamic user experience, as JavaScript can manipulate the content of
+a web page in real-time based on user actions, such as clicking a button or filling out a form.
+
+JavaScript is also increasingly used for server-side programming, thanks to platforms like Node.js. This allows developers to use 
+JavaScript to build both the client and server sides of web applications, making it easier to maintain and scale web projects.
+
+Overall, JavaScript plays a crucial role in modern web development, enabling developers to create rich, interactive web experiences 
+that were not possible with just HTML and CSS alone.

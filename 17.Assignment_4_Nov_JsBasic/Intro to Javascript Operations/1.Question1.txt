@@ -1,0 +1,53 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Ans.
+
+In JavaScript, "operators" play a crucial role in manipulating values and performing various computations.
+
+Let's delve into their significance:
+
+1. "Arithmetic Operators":
+   - These operators handle basic mathematical operations like addition, subtraction, multiplication, division, and modulus.
+   - Examples:
+     - "Addition (+)": Combines values or concatenates strings (e.g., "Geeks" + "for" + "Geeks" results in "GeeksforGeeks").
+     - "Subtraction (-)": Computes the difference between two operands.
+     - "Multiplication (*)": Calculates the product of two operands.
+     - "Division (/)": Divides the numerator by the denominator.
+     - "Modulus (%)": Provides the remainder of an integer division.
+     - "Exponentiation (")": Raises the first operand to the power of the second operand.
+
+2. "Assignment Operators":
+   - These operators assign values to variables.
+   - Examples:
+     - "Assignment (=)": Assigns the right operand value to the left operand.
+     - "Addition Assignment (+=)": Adds the right operand to the left operand and assigns the result.
+     - "Subtraction Assignment (-=)": Subtracts the right operand from the left operand and assigns the result.
+     - "Multiplication Assignment (*=)": Multiplies the variable by the right operand and assigns the result.
+     - "Division Assignment (/=)": Divides the variable by the right operand and assigns the result.
+
+3. "Comparison Operators":
+   - These operators compare values and return a Boolean result (true or false).
+   - Examples:
+     - "Equality (==)": Checks if two values are equal.
+     - "Inequality (!=)": Verifies if two values are not equal.
+     - "Greater Than (>)", "Less Than (<)", "Greater Than or Equal To (>=)", "Less Than or Equal To (<=)": Compare numeric values.
+
+4. "Logical Operators":
+   - These operators combine or negate Boolean expressions.
+   - Examples:
+     - "AND (&&)": Returns true if both operands are true.
+     - "OR (||)": Returns true if at least one operand is true.
+     - "NOT (!)": Negates the value of an expression.
+
+5. "String Operators":
+   - These operators work with strings.
+   - Example:
+     - "Concatenation (+)": Joins two strings together.
+
+6. "Bitwise Operators":
+   - These operators manipulate individual bits of numeric values.
+   - Examples:
+     - "AND (&)", "OR (|)", "XOR (^)": Perform bitwise operations.
+
+In summary, operators are like the "verbs" of programming—they allow us to perform actions on values, compare data, and 
+execute complex logic.

@@ -1,0 +1,34 @@
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+
+Ans.
+
+JavaScript and HTML are both essential components of web development, but they serve different purposes and have different capabilities. Here are the key differences between the two:
+
+1. "Purpose": 
+
+HTML (Hypertext Markup Language) is used for creating the structure and content of web pages. It defines the elements of 
+a web page, such as headings, paragraphs, images, and links. 
+
+JavaScript, on the other hand, is used for adding interactivity and dynamic behavior to web pages.
+
+2. "Syntax": 
+
+HTML uses tags to define elements, such as `<p>` for paragraphs and `<img>` for images. 
+
+JavaScript uses a syntax that is more  similar to traditional programming languages, with statements, variables, functions, and loops.
+
+3. "Execution": 
+
+HTML is static and is interpreted by the browser to display content on a web page.
+
+JavaScript is dynamic and can be executed in the browser to manipulate the content of a web page in real-time.
+
+4. "Example Usage":
+
+- "HTML": You would use HTML to create the structure of a web page, such as defining headings, paragraphs, lists, and links. 
+          For example, to create a simple webpage with a heading and a paragraph of text.
+
+
+- "JavaScript": You would use JavaScript to add interactivity to a web page, such as responding to user actions or updating
+   content dynamically. For example, you could use JavaScript to create a button that changes the text of a paragraph when clicked.

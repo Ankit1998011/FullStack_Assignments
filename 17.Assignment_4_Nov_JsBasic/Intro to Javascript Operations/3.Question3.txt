@@ -1,0 +1,43 @@
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Ans.
+
+Let's explore the different types of operators in JavaScript and provide examples for each category:
+
+1. "Unary Operators":
+   - Unary operators require "one operand" for operation.
+   - They operate on a single value or variable.
+   - Examples:
+     - "`typeof` Operator": Returns the data type of a value. For instance:
+       
+       ```javascript
+
+       typeof "hello"; // Returns "string"
+       
+       ```
+
+2. "Binary Operators":
+   - Binary operators require "two operands" for operation.
+   - They perform operations between two values or variables.
+   - Examples:
+     - "Addition (`+`)": Adds two numbers:
+       
+       ```javascript
+
+       10 + 20; // Returns 30
+       
+       ```
+
+3. "Ternary Operator":
+   - The ternary operator is a special operator that requires "three operands".
+   - It provides a concise way to write conditional expressions.
+   - Syntax: `condition ? expression1 : expression2`
+   - Example:
+
+     ```javascript
+    
+     const score = 80;
+     const scoreRating = score > 70 ? "Excellent" : "Do better";
+     console.log(scoreRating); // "Excellent"
+    
+     ```
